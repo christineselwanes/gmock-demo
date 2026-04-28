@@ -1,0 +1,84 @@
+Start testing: Apr 28 11:27 UTC
+----------------------------------------------------------
+1/3 Testing: UserRegistrationTest.SendsWelcomeEmail
+1/3 Test: UserRegistrationTest.SendsWelcomeEmail
+Command: "/home/ubuntu/gmock-demo/build/my_test" "--gtest_filter=UserRegistrationTest.SendsWelcomeEmail" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gmock-demo/build
+"UserRegistrationTest.SendsWelcomeEmail" start time: Apr 28 11:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = UserRegistrationTest.SendsWelcomeEmail
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UserRegistrationTest
+[ RUN      ] UserRegistrationTest.SendsWelcomeEmail
+[       OK ] UserRegistrationTest.SendsWelcomeEmail (0 ms)
+[----------] 1 test from UserRegistrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UserRegistrationTest.SendsWelcomeEmail" end time: Apr 28 11:27 UTC
+"UserRegistrationTest.SendsWelcomeEmail" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: UserRegistrationTest.ReturnsFalseWhenEmailFails
+2/3 Test: UserRegistrationTest.ReturnsFalseWhenEmailFails
+Command: "/home/ubuntu/gmock-demo/build/my_test" "--gtest_filter=UserRegistrationTest.ReturnsFalseWhenEmailFails" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gmock-demo/build
+"UserRegistrationTest.ReturnsFalseWhenEmailFails" start time: Apr 28 11:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = UserRegistrationTest.ReturnsFalseWhenEmailFails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UserRegistrationTest
+[ RUN      ] UserRegistrationTest.ReturnsFalseWhenEmailFails
+[       OK ] UserRegistrationTest.ReturnsFalseWhenEmailFails (0 ms)
+[----------] 1 test from UserRegistrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UserRegistrationTest.ReturnsFalseWhenEmailFails" end time: Apr 28 11:27 UTC
+"UserRegistrationTest.ReturnsFalseWhenEmailFails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: UserRegistrationTest.SendsCorrectEmailToMultipleUsers
+3/3 Test: UserRegistrationTest.SendsCorrectEmailToMultipleUsers
+Command: "/home/ubuntu/gmock-demo/build/my_test" "--gtest_filter=UserRegistrationTest.SendsCorrectEmailToMultipleUsers" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gmock-demo/build
+"UserRegistrationTest.SendsCorrectEmailToMultipleUsers" start time: Apr 28 11:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = UserRegistrationTest.SendsCorrectEmailToMultipleUsers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UserRegistrationTest
+[ RUN      ] UserRegistrationTest.SendsCorrectEmailToMultipleUsers
+[       OK ] UserRegistrationTest.SendsCorrectEmailToMultipleUsers (0 ms)
+[----------] 1 test from UserRegistrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UserRegistrationTest.SendsCorrectEmailToMultipleUsers" end time: Apr 28 11:27 UTC
+"UserRegistrationTest.SendsCorrectEmailToMultipleUsers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 28 11:27 UTC

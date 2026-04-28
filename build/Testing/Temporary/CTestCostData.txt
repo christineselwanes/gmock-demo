@@ -1,0 +1,4 @@
+UserRegistrationTest.SendsWelcomeEmail 1 0.00117248
+UserRegistrationTest.ReturnsFalseWhenEmailFails 1 0.000946442
+UserRegistrationTest.SendsCorrectEmailToMultipleUsers 1 0.000809819
+---
